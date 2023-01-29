@@ -1,0 +1,196 @@
+@font-face {
+font-family:PT-serif;
+src:url(fontsAndImgs/PTSerif-Bold.ttf);
+}
+
+* {
+box-sizing:border-box;
+max-width:100%;
+}
+
+body {
+margin:0;
+overflow:hidden;
+background-color:ghostwhite;
+}
+
+.flexbox-container {
+display:flex;
+flex-direction:row;
+
+}
+
+img {
+height:100vh;
+width:min(42vw, 100%);
+}
+
+.odinImg {
+width: min(120px, 100%);
+height: min(100px, 100%);
+
+}
+
+.logoText {
+position:absolute;
+left:140px;
+bottom:5px;
+font-family:PT-serif;
+font-size:3rem;
+color:ghostwhite;
+min-width:100%;
+}
+
+.logoMove {
+position:absolute;
+left:150px;
+top:5px;
+}
+
+#logoBorder {
+position:absolute;
+top:18vh;
+border:1px solid black;
+background-color:rgba(0,0,0,.3);
+height:19%;
+width:42%;
+}
+
+
+h1 {
+margin-left:50px;
+margin-top:50px;
+line-height:1.3;
+}
+
+.forForm {
+border:1px solid white;
+background-color:white;
+width:100%;
+padding-left:50px;
+padding-top:30px;
+height:240px;
+box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+position:absolute;
+}
+
+label {
+display:block;
+font-family:arial;
+}
+
+
+.firstName {
+display:inline-block;
+}
+
+.lastName {
+display:inline-block;
+padding-left:60px;
+}
+
+.linebreak {
+display:block;
+}
+
+
+.email {
+display:inline-block;
+margin-top:20px;
+}
+
+.phoneNumber {
+display:inline-block;
+padding-left:60px;
+}
+
+.password {
+display:inline-block;
+margin-top:20px;
+}
+
+.confirmPassword {
+display:inline-block;
+padding-left:60px;
+}
+
+input{
+height:25px;
+width:250px;
+border:1px solid #E5E7EB;
+}
+
+input:focus {
+outline:1px solid blue;
+box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.error {
+border:1px solid #E5E7EB;
+}
+
+.error.active {
+border:0px solid #EE0000;
+outline: 1px solid #EE0000;
+}
+
+#errorMsg {
+display:none;
+position:relative;
+bottom:100px;
+color:#EE0000;
+} 
+
+button {
+position:relative;
+top:20px;
+display:block;
+border:1px solid #596D48;
+border-radius:5px;
+background-color:#596D48;
+color:white;
+margin-top:40px;
+height:45px;
+width:220px;
+font-size:1.1rem;
+font-weight:bold;
+cursor:pointer;
+}
+
+.footerP {
+position:relative;
+top:15px;
+
+}
+
+.logInLink {
+color:#596D48;
+text-decoration:none;
+}
+
+.propsLink {
+text-decoration:underline;
+color:white;
+}
+
+span {
+position:absolute;
+left:270px;
+bottom:0;
+color:white;
+}
+
+@media screen and (max-width:1890px){
+
+.odinImg {
+height:125px;
+width:100px;
+}
+
+.logoText {
+position:relative;
+bottom:150px;
+}
+
+}
+

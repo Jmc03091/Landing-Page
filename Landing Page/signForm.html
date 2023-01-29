@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Sign In Form </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signForm.css">
+    <script src="signForm.js" defer> </script>
+  </head>
+  <body>
+    <div class="flexbox-container">
+      
+	<img src="fontsAndImgs/nasaEarth.jpg" alt="NASA">
+	  <div id="logoBorder">
+	    <div class="logoMove">
+	      <img src="fontsAndImgs/odin-lined.jpg" class="odinImg">
+		<p class="logoText"> My Website </p>
+	    </div>
+	  </div>
+      
+      <div class="MainStructure">
+	  <h1> Welcome to my space-themed mock site. This website is centered <br> 
+               around new live updates on the hottest news centered around <br> 
+               space travel. <br>
+               <br>
+               Sign in below.
+	  </h1>
+      
+	<div class="forForm">
+	  <form action="example.com/path" method="post">
+            
+	    <div class="firstName">
+	      <label for="firstName"> First Name </label>
+	      <input type="text" id="firstName" name="firstName">
+	    </div>
+            
+	    <div class="lastName">
+	      <label for="lastName"> Last Name </label>
+	      <input type="text" id="lastName" name="lastName">
+	    </div>
+            
+	    <div class="linebreak"> </div>
+            
+	    <div class="email">
+	      <label for="email"> Email </label>
+	      <input type="text" id="email" name="email">
+	    </div>
+            
+	    <div class="phoneNumber">
+	      <label for="phoneNumber"> Phone Number </label>
+	      <input type="text" id="phoneNumber" name="phoneNumber">
+	    </div>
+            
+	    <div class="linebreak"> </div>
+            
+	    <div class="password">
+	      <label for="password"> Password: </label>
+	      <input type="text" id="password" class="error" name="password">
+	    </div>
+            
+	    <div class="confirmPassword">
+	      <label for="confirmPassword"> Confirm Password: </label>
+	      <input type="text" id="confirmPassword" class="error" name="confirmPassword">
+	    </div>
+	  
+	    <button type="submit"> Create Account </button>
+	    <p id="errorMsg"> * Passwords do not match </p>
+	    <p class="footerP"> Already have an account? <a href="https://www.google.com" class="logInLink"> Log In </a> </p>
+	  </form>
+	</div>
+      </div>
+      
+	<span> Photo by <a href="https://www.nasa.gov/" class="propsLink"> NASA </a> on 
+	<a href="https://unsplash.com/" class="propsLink"> Unsplash </a> </span>
+      
+      
+       
+    </div>
+    
+  </body>
+</html>
